@@ -52,8 +52,11 @@
             more exciting features in the future.
           </p>
           <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+            <em><small>&mdash; Masahiro Kusuda</small></em>
           </div>
+          <p>
+            Demaciaaaaa!
+          </p>
           <hr class="my-3" />
           <a
             href="https://nuxtjs.org/"
