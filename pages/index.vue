@@ -54,9 +54,7 @@
           <div class="text-xs-right">
             <em><small>&mdash; Masahiro Kusuda</small></em>
           </div>
-          <p>
-            Demaciaaaaa!
-          </p>
+          <p>Demaciaaaaa!</p>
           <hr class="my-3" />
           <a
             href="https://nuxtjs.org/"

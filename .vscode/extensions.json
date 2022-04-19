@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "octref.vetur",
+    "2gua.rainbow-brackets",
+    "allanoricil.nuxt-vscode-extension",
+    "oderwat.indent-rainbow"
+  ]
+}
