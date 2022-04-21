@@ -1,9 +1,24 @@
 import colors from 'vuetify/es5/util/colors'
 
+const baseDir = process.env.BASE_DIR || '/'
+
+// module.exports = {
+//   router: {
+//     base: baseDir,
+//   },
+// }
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  ssr: false,
 
+  // this sentence definds that ~ and @ implys src/
+  srcDir: 'src/',
+
+  generate: {
+    subFolders: false,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - zero_emission',
@@ -61,4 +76,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // generate:{
+  //   routes({
+
+  //   })
+  // }
 }
