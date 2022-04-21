@@ -37,18 +37,4 @@ export default {
 }
 </script>
 
-<style scoped>
-v-app {
-  color: red;
-}
-v-toolbar-title {
-  color: coral;
-}
-.text-h2 {
-  color: red;
-}
-.test {
-  font-weight: bold;
-  font-size: 1rem !important;
-}
-</style>
+<style scoped></style>
