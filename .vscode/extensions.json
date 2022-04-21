@@ -5,6 +5,8 @@
     "octref.vetur",
     "2gua.rainbow-brackets",
     "allanoricil.nuxt-vscode-extension",
-    "oderwat.indent-rainbow"
+    "oderwat.indent-rainbow",
+    "eg2.vscode-npm-script",
+    "DavidAnson.vscode-markdownlint"
   ]
 }
