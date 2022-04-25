@@ -1,12 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
-const baseDir = process.env.BASE_DIR || '/'
-
-// module.exports = {
-//   router: {
-//     base: baseDir,
-//   },
-// }
+const environment = process.env.NODE_ENV || 'local'
+const env = require(`./env/${environment}.js`)
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -16,9 +11,6 @@ export default {
   // this sentence definds that ~ and @ implys src/
   srcDir: 'src/',
 
-  generate: {
-    subFolders: false,
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - zero_emission',
@@ -32,7 +24,9 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -77,9 +71,12 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  // generate:{
-  //   routes({
+  router: {
+    // base: '/home/masahiro/projects/zero_emission/dist/',
+    base: env.BASE_URL,
+  },
 
-  //   })
-  // }
+  generate: {
+    // subFolders: false,
+  },
 }
