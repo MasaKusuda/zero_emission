@@ -15,12 +15,12 @@
   },
   "dependencies": {
     "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
+    "nuxt": "^2.13.3",
     "vue": "^2.x",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "vuetify": "^2.6.1",
-    "webpack": "^4.46.0"
+    "webpack": "^5.72.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
