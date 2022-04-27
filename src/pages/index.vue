@@ -21,6 +21,7 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
+    test desu!
   </v-app>
 </template>
 

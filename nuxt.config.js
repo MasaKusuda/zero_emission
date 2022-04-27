@@ -1,7 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
-const environment = process.env.NODE_ENV || 'local'
-const env = require(`./env/${environment}.js`)
+// const environment = process.env.NODE_ENV || 'local'
+// const env = require(`./env/${environment}.js`)
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -25,7 +25,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` },
+      { rel: 'icon', type: 'image/x-icon', href: `/zero_emission/favicon.ico` },
     ],
   },
 
@@ -73,7 +73,7 @@ export default {
 
   router: {
     // base: '/home/masahiro/projects/zero_emission/dist/',
-    base: env.BASE_URL,
+    base: '/zero_emission/',
   },
 
   generate: {
