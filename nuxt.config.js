@@ -24,7 +24,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` },
+      { rel: 'icon', type: 'image/x-icon', href: `/zero_emission/favicon.ico` },
     ],
   },
 
@@ -72,7 +72,7 @@ export default {
 
   router: {
     // base: '/home/masahiro/projects/zero_emission/dist/',
-    base: env.BASE_URL,
+    base: '/zero_emission/',
   },
 
   generate: {
