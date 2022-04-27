@@ -1,11 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
 
-const environment = process.env.NODE_ENV || 'local'
-const env = require(`./env/${environment}.js`)
+// const environment = process.env.NODE_ENV || 'local'
+// const env = require(`./env/${environment}.js`)
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  ssr: false,
 
   // this sentence definds that ~ and @ implys src/
   srcDir: 'src/',
