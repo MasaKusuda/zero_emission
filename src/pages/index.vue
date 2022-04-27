@@ -21,6 +21,7 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
+    おほほほっほほほほほほほほおほｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
   </v-app>
 </template>
 
