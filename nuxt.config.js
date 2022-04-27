@@ -33,7 +33,7 @@ export default {
   css: ['@/assets/css/style.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~/plugins/constant.js' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -48,7 +48,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['nuxt-webfontloader'],
-
   webfontloader: {
     google: {
       families: ['BIZ+UDPGothic'],

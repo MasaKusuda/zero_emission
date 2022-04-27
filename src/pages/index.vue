@@ -15,7 +15,6 @@
           </v-row>
         </v-carousel-item>
       </v-carousel>
-      test desu!
     </v-main>
     <Footer :links="links" />
   </v-app>
