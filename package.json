@@ -35,7 +35,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.51.0",
+    "sass-loader": "10"
   },
   "resolutions": {
     "glob-parent": "^5.1.2",
