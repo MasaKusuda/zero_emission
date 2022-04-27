@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Header />
+    <Header :links="links" />
     <v-main>
       <v-carousel>
         <v-carousel-item
@@ -14,14 +14,22 @@
       </v-carousel>
       test desu!
     </v-main>
+    <Footer :links="links" />
   </v-app>
 </template>
 
 <script>
+import Header from '~/components/Header.vue'
 export default {
   name: 'IndexPage',
+  components: {
+    Header,
+  },
   data: () => ({
     items: [
+      {
+        src: '~/static/images/zerocon2.pdf',
+      },
       {
         src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
       },
@@ -35,15 +43,16 @@ export default {
         src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
       },
     ],
+    links: [
+      'ホーム',
+      'コンセプト',
+      'センター長より',
+      '教員・研究員',
+      '活動実績',
+      '問い合わせ',
+    ],
   }),
 }
 </script>
 
-<style scoped>
-#title_logo {
-  transform: scale(0.3);
-}
-#title_string {
-  margin-right: 2rem;
-}
-</style>
+<style scoped></style>

@@ -1,15 +1,19 @@
 <template>
   <div>
     <v-system-bar app window>
-      <div>筑波大学CO2ゼロ・エミッションセンター</div>
+      <v-row align-content="center">
+        <v-col align="center"
+          >ゼロCO2エミッション機能性材料開発研究センター</v-col
+        >
+      </v-row>
     </v-system-bar>
-    <v-app-bar id="title_bar" :color="app_bar_color" app>
+    <v-app-bar id="title_bar" :color="app_bar_color" app flat>
       <NuxtLogo id="title_logo" />
       <v-toolbar-title id="title_string"
-        >CO2 Zero Emission Center</v-toolbar-title
+        >Zero CO2 Emission Center</v-toolbar-title
       >
       <v-row justify="end">
-        <v-col> <v-spacer style="width: 1rem" /></v-col>
+        <v-col> <v-spacer /></v-col>
         <v-col v-for="item in links" :key="item" align="center" class="pa-0">
           <v-card
             flat
@@ -17,14 +21,14 @@
             to="/"
             fluid
             :color="app_bar_color"
-            style="height: 64px"
+            style="height: 64px; width: 10rem"
           >
-            <v-card-title style="display: inherit">{{
+            <v-card-title style="display: inherit; font-size: medium">{{
               item
             }}</v-card-title></v-card
           >
         </v-col>
-        <v-col> <v-spacer style="width: 2rem" /></v-col>
+        <v-col> <v-spacer /></v-col>
       </v-row>
     </v-app-bar>
   </div>
@@ -33,8 +37,14 @@
 <script>
 export default {
   name: 'HeaderComponent',
+  props: {
+    links: {
+      type: Array,
+      default: () => ['test1', 'test2', 'test3'],
+      required: false,
+    },
+  },
   data: () => ({
-    links: ['home', 'members', 'events', 'publish', 'contact'],
     app_bar_color: '#FAFAFA',
   }),
 }
