@@ -12,14 +12,12 @@
     "lint": "npm run lint:js && npm run lint:prettier",
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix",
     "build:clean": "rimraf ./dist/**",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "deploy-gh": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -t true"
   },
   "dependencies": {
     "core-js": "^3.19.3",
     "gh-pages": "^3.2.3",
     "nuxt": "^2.13.3",
-    "push-dir": "^0.4.1",
     "vue": "^2.x",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
