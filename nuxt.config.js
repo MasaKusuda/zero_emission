@@ -78,5 +78,6 @@ export default {
 
   generate: {
     // subFolders: false,
+    fallback: '404.html',
   },
 }
