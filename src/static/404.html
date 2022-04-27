@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+      location.href = '/zero-emission/'
+    </script>
+  </head>
+</html>
+
+<html>
+  <head>
+    <script>
+      var pathName = window.location.pathname
+      var redirectPath = '/zero-emission/redirect'
+      location.href = redirectPath + '?p=' + encodeURI(pathName)
+    </script>
+  </head>
+</html>
