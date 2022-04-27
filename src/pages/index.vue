@@ -10,6 +10,9 @@
           reverse-transition="fade-transition"
           transition="fade-transition"
         >
+          <v-row class="fill-height" align="center" justify="center">
+            <div :class="css_in_slide[i]">{{ texts_in_slide[0] }}</div>
+          </v-row>
         </v-carousel-item>
       </v-carousel>
       test desu!
@@ -27,9 +30,6 @@ export default {
   },
   data: () => ({
     items: [
-      {
-        src: '~/static/images/zerocon2.pdf',
-      },
       {
         src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
       },
@@ -50,6 +50,13 @@ export default {
       '教員・研究員',
       '活動実績',
       '問い合わせ',
+    ],
+    texts_in_slide: ['カーボンニュートラル及び水素社会の実現を目指して'],
+    css_in_slide: [
+      'text-h3 white--text',
+      'text-h3 white--text',
+      'text-h3 white--text',
+      'text-h3 white--text',
     ],
   }),
 }

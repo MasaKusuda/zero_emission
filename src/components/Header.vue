@@ -2,9 +2,12 @@
   <div>
     <v-system-bar app window>
       <v-row align-content="center">
-        <v-col align="center"
-          >ゼロCO2エミッション機能性材料開発研究センター</v-col
-        >
+        <v-col align="center">
+          <div>
+            ゼロCO2エミッション機能性材料開発研究センター R&D Center for Zero
+            CO2 Emission with Functional Materials
+          </div>
+        </v-col>
       </v-row>
     </v-system-bar>
     <v-app-bar id="title_bar" :color="app_bar_color" app flat>
@@ -28,7 +31,6 @@
             }}</v-card-title></v-card
           >
         </v-col>
-        <v-col> <v-spacer /></v-col>
       </v-row>
     </v-app-bar>
   </div>
