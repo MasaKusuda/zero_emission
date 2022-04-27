@@ -1,9 +1,10 @@
 <template>
-  <nuxt />
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'BlankPage',
+  name: 'DCopy',
+  layout: 'default_copy',
 }
 </script>
