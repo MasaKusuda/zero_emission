@@ -6,7 +6,6 @@ const env = require(`./env/${environment}.js`)
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  ssr: false,
 
   // this sentence definds that ~ and @ implys src/
   srcDir: 'src/',
