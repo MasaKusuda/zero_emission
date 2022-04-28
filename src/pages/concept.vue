@@ -3,7 +3,7 @@
     <Header :links="links" />
     <v-main>
       <v-divider></v-divider>
-      <v-container fluid class="top-hero" style="height: 180px">
+      <v-container fluid style="height: 180px">
         <v-row
           class="light-blue lighten-4"
           style="height: 180px"
@@ -19,8 +19,8 @@
       <v-row justify="center" align-content="center">
         <v-col
           ><v-container class="my-10 px-16">
-            <div>
-              ゼロカーボン社会の実現に向けた再生可能エネルギーの探究
+            <div class="text-h6" style="text-align: center">
+              ゼロカーボン社会の実現に向けた再生可能エネルギーの探究<br />
               「ゼロCO2エミッション機能性材料開発研究センター」の設置
             </div>
             <p>
@@ -31,7 +31,9 @@
               タノールやギ酸などの化成品や燃料の原料となる有用な物質に転換するグリーンイノ
               ベーション基盤技術の研究開発を推進します。
             </p>
-            <div>設置の背景</div>
+            <v-divider class="my-1"></v-divider>
+            <v-divider></v-divider>
+            <div class="text-h6" style="text-align: center">設置の背景</div>
             <p>
               地球温暖化に伴い、温室効果ガスである二酸化炭素を排出しない脱炭素（カーボンニュートラ
               ル）が地球規模で求められている。水素は水から製造可能であり、水素を用いた燃料電池は、発
@@ -43,7 +45,9 @@
               この事象に対し、世界の産学官連携のもとでCO2の有効な利用手段となるカーボンリサイクル技
               術の開発がもとめられており、地球規模課題の解決にむけたイノベーションが活発となっている。
             </p>
-            <div>センターの概要</div>
+            <v-divider class="my-1"></v-divider>
+            <v-divider></v-divider>
+            <div class="text-h6" style="text-align: center">センターの概要</div>
             <p>
               本学のオリジナリティの高い、グリーンイノベーションの基礎科学研究成果を包括的に社会に発
               信することにより、個別に推進してきた産学連携の取り組みからのゲームチェンジを起こし、グリー
@@ -54,15 +58,20 @@
               で水素を安全に製造・貯蔵・輸送する技術を開発し、水素を再生可能エネルギーキャリアとして確
               立することにより、ゼロカーボン社会の実現に貢献するとともに、SDGsの実現に貢献する。
             </p>
-            <div>センターの活動方針について</div>
+            <v-divider class="my-1"></v-divider>
+            <v-divider></v-divider>
+            <div class="text-h6" style="text-align: center">
+              センターの活動方針について
+            </div>
             <p>
               貴金属を用いずに低コストで水素を製造する技術の開発研究や安価で安全に大量の水素を貯
               蔵・輸送する技術の開発、また二酸化炭素を有用な物質に転換する技術の開発研究など、グリー
               ンイノベーション基盤技術のさらなる推進のほか、酵素や微生物の生体触媒機能を活用したエネ
               ルギー変換技術の開発研究を行う。
             </p>
-          </v-container></v-col
-        >
+            <v-divider class="my-1"></v-divider>
+            <v-divider></v-divider> </v-container
+        ></v-col>
       </v-row>
     </v-main>
     <Footer :links="links" />
@@ -103,8 +112,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-// .top-hero {
-//   background-image: url('~/static/images/oilseed.jpg');
-// }
-</style>
+<style lang="scss" scoped></style>
