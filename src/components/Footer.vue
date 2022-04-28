@@ -3,10 +3,15 @@
     <v-footer app>
       <v-row justify="center" align-content="center">
         <v-col v-for="i in 3" :key="i"><v-spacer></v-spacer></v-col>
-        <v-col v-for="link in links" :key="link" align="center">
-          <v-btn :to="link" nuxt plain class="ma-1" style="font-size: 0.8rem">{{
-            link
-          }}</v-btn>
+        <v-col v-for="link in links" :key="link.name" align="center">
+          <v-btn
+            :to="link.src"
+            nuxt
+            plain
+            class="ma-1"
+            style="font-size: 0.8rem"
+            >{{ link.name }}</v-btn
+          >
         </v-col>
         <v-col v-for="i in 3" :key="i"><v-spacer></v-spacer></v-col>
       </v-row>

@@ -17,17 +17,22 @@
       >
       <v-row justify="end">
         <v-col> <v-spacer /></v-col>
-        <v-col v-for="item in links" :key="item" align="center" class="pa-0">
+        <v-col
+          v-for="item in links"
+          :key="item.name"
+          align="center"
+          class="pa-0"
+        >
           <v-card
             flat
             link
-            to="/"
+            :to="item.src"
             fluid
             :color="app_bar_color"
             style="height: 64px; width: 10rem"
           >
             <v-card-title style="display: inherit; font-size: medium">{{
-              item
+              item.name
             }}</v-card-title></v-card
           >
         </v-col>

@@ -43,12 +43,30 @@ export default {
       },
     ],
     links: [
-      'ホーム',
-      'コンセプト',
-      'センター長より',
-      '教員・研究員',
-      '活動実績',
-      '問い合わせ',
+      {
+        name: 'ホーム',
+        src: '/',
+      },
+      {
+        name: 'コンセプト',
+        src: '/concept',
+      },
+      {
+        name: 'センター長より',
+        src: '/message',
+      },
+      {
+        name: '教員・研究員',
+        src: '/member',
+      },
+      {
+        name: '活動実績',
+        src: '/performance',
+      },
+      {
+        name: '問い合わせ',
+        src: '/contact',
+      },
     ],
     texts_in_slide: ['カーボンニュートラル及び水素社会の実現を目指して'],
     css_in_slide: [
