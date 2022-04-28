@@ -3,7 +3,7 @@
 <script>
 export default {
   name: 'MessagePage',
-  layout: 'article',
+  layout: 'inprogress',
 }
 </script>
 

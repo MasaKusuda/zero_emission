@@ -3,7 +3,7 @@
 <script>
 export default {
   name: 'ContactPage',
-  layout: 'article',
+  layout: 'inprogress',
 }
 </script>
 

@@ -3,7 +3,7 @@
 <script>
 export default {
   name: 'MemberPage',
-  layout: 'article',
+  layout: 'inprogress',
 }
 </script>
 
