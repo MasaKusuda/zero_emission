@@ -18,10 +18,8 @@
       </v-container>
       <v-row justify="center" align-content="center">
         <v-col
-          ><v-container class="my-10 px-16">
-            </nuxt>
-          </v-container></v-col
-        >
+          ><v-container class="my-10 px-16"> <nuxt /> </v-container
+        ></v-col>
       </v-row>
     </v-main>
     <Footer :links="links" />
@@ -31,9 +29,7 @@
 <script>
 export default {
   name: 'ArticleLayout',
-  props:{
-
-  },
+  props: {},
   data: () => ({
     title: {
       jp: 'ページの表題',
