@@ -6,7 +6,6 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  ssr: false,
 
   // this sentence definds that ~ and @ implys src/
   srcDir: 'src/',
@@ -78,7 +77,7 @@ export default {
 
   router: {
     // base: '/home/masahiro/projects/zero_emission/dist/',
-    base: '/zero_emission/',
+    base: '/',
   },
 
   generate: {
