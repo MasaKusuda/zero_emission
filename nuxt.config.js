@@ -78,7 +78,7 @@ export default {
 
   router: {
     // base: '/home/masahiro/projects/zero_emission/dist/',
-    base: '/zero_emission/',
+    base: '/',
   },
 
   generate: {
