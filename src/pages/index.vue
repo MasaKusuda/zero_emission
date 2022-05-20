@@ -21,7 +21,7 @@
             <v-row justify="center" align-content="center">
               <v-col>
                 <div class="text-h4" style="text-align: center">
-                  ゼロCO2エミッション機能性材料開発研究センター
+                  ゼロCO<sub>2</sub> エミッション機能性材料開発研究センター
                 </div>
                 <p>
                   現在、地球温暖化に伴い、温室効果ガスである二酸化炭素を排出しない脱炭素（カーボンニュートラル）が地球規模で求められています。水素は水から製造可能であり、水素を用いた燃料電池は、発電の際の化学反応において二酸化炭素を排出せずに水のみを生成物として産生するため、再生可能エネルギーの中心的なエネルギーキャリアとして注目されています。この様に、水素は、持続可能なゼロカーボン社会を担う重要な分子です。本センターでは、水素の製造・貯蔵・輸送に関する基本的な重要技術と二酸化炭素をメタノールやギ酸などの化成品や燃料の原料となる有用な物質に転換するグリーンイノベーション基盤技術の開発研究を推進します。
@@ -45,16 +45,16 @@ export default {
   data: () => ({
     items: [
       {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+        src: '/images/carousel/img1.jpg',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+        src: '/images/carousel/img2.jpg',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+        src: '/images/carousel/img3.jpg',
       },
       {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+        src: '/images/carousel/img4.jpg',
       },
     ],
     links: [

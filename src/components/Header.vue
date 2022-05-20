@@ -4,8 +4,8 @@
       <v-row align-content="center">
         <v-col align="center">
           <div>
-            ゼロCO2エミッション機能性材料開発研究センター R&D Center for Zero
-            CO2 Emission with Functional Materials
+            ゼロCO<sub>2</sub>エミッション機能性材料開発研究センター R&D
+            Center for Zero CO2 Emission with Functional Materials
           </div>
         </v-col>
       </v-row>
@@ -13,7 +13,7 @@
     <v-app-bar id="title_bar" :color="app_bar_color" app flat>
       <NuxtLogo id="title_logo" />
       <v-toolbar-title id="title_string"
-        >Zero CO2 Emission Center</v-toolbar-title
+        >Zero CO<sub>2</sub> Emission Center</v-toolbar-title
       >
       <v-row justify="end">
         <v-col> <v-spacer /></v-col>
