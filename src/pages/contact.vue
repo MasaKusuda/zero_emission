@@ -31,9 +31,9 @@
                 </v-col>
               </v-row>
               <div class="text-h6 my-5" style="text-align: center">
-                筑波大学数理物質系 准教授 近藤 剛弘（こんどう たかひろ）</br>
-                  TEL:029-853-5934 </br>
-                  E-mail: takahiro@ims.tsukuba.ac.jp
+                筑波大学数理物質系 准教授 近藤 剛弘（こんどう たかひろ）<br />
+                TEL:029-853-5934 <br />
+                E-mail: takahiro@ims.tsukuba.ac.jp
               </div>
             </v-container>
           </v-container></v-col

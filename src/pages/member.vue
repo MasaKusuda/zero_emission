@@ -21,10 +21,10 @@
           ><v-container class="my-10 px-16">
             <GrayBar title_string="センター長" />
             <v-row class="my-2">
-                            <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
                 <img width="200" src="~/static/images/igarashi.jpg" />
                 <v-card-text class="black--text text-h6 text-center"
-                  >准教授</br>五十嵐康彦</v-card-text
+                  >准教授<br />五十嵐康彦</v-card-text
                 >
               </v-card></v-row
             >
@@ -33,12 +33,13 @@
               <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
                 <img width="200" src="~/static/images/igarashi.jpg" />
                 <v-card-text class="black--text text-h6 text-center"
-                  >准教授</br>五十嵐康彦</v-card-text
+                  >准教授<br />五十嵐康彦</v-card-text
                 >
-              </v-card>              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+              </v-card>
+              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
                 <img width="200" src="~/static/images/igarashi.jpg" />
                 <v-card-text class="black--text text-h6 text-center"
-                  >准教授</br>五十嵐康彦</v-card-text
+                  >准教授<br />五十嵐康彦</v-card-text
                 >
               </v-card>
             </v-row>
@@ -47,13 +48,13 @@
               <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
                 <img width="200" src="~/static/images/igarashi.jpg" />
                 <v-card-text class="black--text text-h6 text-center"
-                  >准教授</br>五十嵐康彦</v-card-text
+                  >准教授<br />五十嵐康彦</v-card-text
                 >
               </v-card>
               <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
                 <img width="200" src="~/static/images/igarashi.jpg" />
                 <v-card-text class="black--text text-h6 text-center"
-                  >准教授</br>五十嵐康彦</v-card-text
+                  >准教授<br />五十嵐康彦</v-card-text
                 >
               </v-card>
             </v-row>
@@ -68,8 +69,8 @@
 <script>
 import GrayBar from '../components/GrayBar.vue'
 export default {
-  components: { GrayBar },
   name: 'ArticleLayout',
+  components: { GrayBar },
   props: {},
   data: () => ({
     title: {

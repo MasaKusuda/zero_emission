@@ -35,7 +35,7 @@
             </v-container>
             <v-container>
               <v-row no-gutters class="mb-6">
-                <v-col md="1">
+                <v-col md="2">
                   <p class="text-h6">2022/04/01</p>
                 </v-col>
                 <v-col>
@@ -71,16 +71,16 @@ export default {
   data: () => ({
     items: [
       {
-        src: '/images/carousel/img1.jpg',
+        src: './images/carousel/img1.jpg',
       },
       {
-        src: '/images/carousel/img2.jpg',
+        src: './images/carousel/img2.jpg',
       },
       {
-        src: '/images/carousel/img3.jpg',
+        src: './images/carousel/img3.jpg',
       },
       {
-        src: '/images/carousel/img4.jpg',
+        src: './images/carousel/img4.jpg',
       },
     ],
     links: [
