@@ -16,22 +16,48 @@
         </v-carousel-item>
       </v-carousel>
       <v-row justify="center" align-content="center">
+        <v-col></v-col>
+      </v-row>
+      <v-row justify="center" align-content="center">
         <v-col
           ><v-container class="my-10 px-16">
-            <v-row justify="center" align-content="center">
-              <v-col>
-                <div class="text-h4" style="text-align: center">
-                  ゼロCO<sub>2</sub> エミッション機能性材料開発研究センター
-                </div>
-                <p>
-                  現在、地球温暖化に伴い、温室効果ガスである二酸化炭素を排出しない脱炭素（カーボンニュートラル）が地球規模で求められています。水素は水から製造可能であり、水素を用いた燃料電池は、発電の際の化学反応において二酸化炭素を排出せずに水のみを生成物として産生するため、再生可能エネルギーの中心的なエネルギーキャリアとして注目されています。この様に、水素は、持続可能なゼロカーボン社会を担う重要な分子です。本センターでは、水素の製造・貯蔵・輸送に関する基本的な重要技術と二酸化炭素をメタノールやギ酸などの化成品や燃料の原料となる有用な物質に転換するグリーンイノベーション基盤技術の開発研究を推進します。
-                </p>
-                <div style="text-align: center">
-                  <img src="~/static/images/fig1.png" />
-                </div>
-              </v-col>
-            </v-row> </v-container
-        ></v-col>
+            <v-container fluid class="my-1">
+              <v-row
+                class="blue-grey lighten-5"
+                style="height: 40px"
+                justify="center"
+                align-content="center"
+              >
+                <v-col>
+                  <div class="text-h4" style="text-align: center">ニュース</div>
+                </v-col>
+              </v-row>
+            </v-container>
+            <v-container>
+              <v-row no-gutters class="mb-6">
+                <v-col md="1">
+                  <p class="text-h6">2022/04/01</p>
+                </v-col>
+                <v-col>
+                  <p class="text-h6">
+                    ゼロCO2エミッション機能性材料開発研究センターが設立されました。
+                    (<a
+                      href="https://www.sanrenhonbu.tsukuba.ac.jp/wp/wp-content/uploads/2022/04/zeroco2.pdf"
+                      >プレスリリース</a
+                    >)
+                  </p>
+                </v-col>
+                <v-container>
+                  <p>
+                    令和4年4月1日付けで、「ゼロCO2エミッション機能性材料開発研究センター」（センター長:近藤剛弘
+                    筑波大学数理物質系
+                    准教授）を設立します。本センターでは、水素の製造・貯蔵・輸送に関する基本的な重要技術と二酸化炭素をメタノールやギ酸などの化成品や燃料の原料となる有用な物質に転換するグリーンイノベーション基盤技術の研究開発を推進します。
+                  </p>
+                </v-container>
+              </v-row>
+            </v-container>
+          </v-container>
+        </v-col>
       </v-row>
     </v-main>
     <Footer :links="links" />

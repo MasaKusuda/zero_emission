@@ -21,25 +21,39 @@
           ><v-container class="my-10 px-16">
             <GrayBar title_string="センター長" />
             <v-row class="my-2">
-              <v-card flat max-width="400" class="mx-auto my-2 rounded-0">
-                <img width="400" src="~/static/images/igarashi_gray.jpg" />
-                <v-card-text class="black--text text-h5 text-center"
-                  >准教授/五十嵐康彦</v-card-text
+                            <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+                <img width="200" src="~/static/images/igarashi.jpg" />
+                <v-card-text class="black--text text-h6 text-center"
+                  >准教授</br>五十嵐康彦</v-card-text
                 >
               </v-card></v-row
             >
-            <GrayBar title_string="理事" />
+            <GrayBar title_string="メンバー" />
             <v-row class="my-2">
-              <v-card flat max-width="400" class="mx-auto my-2 rounded-0">
-                <img width="400" src="~/static/images/igarashi_gray.jpg" />
-                <v-card-text class="black--text text-h5 text-center"
-                  >准教授/五十嵐康彦</v-card-text
+              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+                <img width="200" src="~/static/images/igarashi.jpg" />
+                <v-card-text class="black--text text-h6 text-center"
+                  >准教授</br>五十嵐康彦</v-card-text
+                >
+              </v-card>              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+                <img width="200" src="~/static/images/igarashi.jpg" />
+                <v-card-text class="black--text text-h6 text-center"
+                  >准教授</br>五十嵐康彦</v-card-text
                 >
               </v-card>
-              <v-card flat max-width="400" class="mx-auto my-2 rounded-0">
-                <img width="400" src="~/static/images/igarashi_gray.jpg" />
-                <v-card-text class="black--text text-h5 text-center"
-                  >准教授/五十嵐康彦</v-card-text
+            </v-row>
+            <GrayBar title_string="アドバイザー" />
+            <v-row class="my-2">
+              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+                <img width="200" src="~/static/images/igarashi.jpg" />
+                <v-card-text class="black--text text-h6 text-center"
+                  >准教授</br>五十嵐康彦</v-card-text
+                >
+              </v-card>
+              <v-card flat max-width="200" class="mx-auto my-2 rounded-0">
+                <img width="200" src="~/static/images/igarashi.jpg" />
+                <v-card-text class="black--text text-h6 text-center"
+                  >准教授</br>五十嵐康彦</v-card-text
                 >
               </v-card>
             </v-row>
